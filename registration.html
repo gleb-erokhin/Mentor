@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+        <title>Регистрация</title>
+    </head>
+
+    <body>
+        <header class="herader">
+            <div class="container">
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">Home</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        <main class="main main__reg">
+            <div class="container">
+
+                <form class="form" action="" class="reg">
+                    <h1 class="form__title">Регистрация</h1>
+                    <h2>Личные данные</h2>
+                    <hr>
+
+                    <label for="name">Имя:
+                        <input id="name" type="text">
+                    </label> <br>
+                    <label for="email">email:
+                        <input id="email" type="email">
+                    </label><br>
+                    <label for="password">Пароль:
+                        <input id="password" type="password">
+                    </label>
+
+                    <h2>Дополнительная информция</h2>
+                    <hr>
+
+                    <label for="age">Возраст:
+                        <input id="age" type="number">
+                    </label><br>
+                    <label for="gender">Пол:
+                        <select id="gender">
+                            <option selected value="Мужской">Мужской</option>
+                            <option value="Женский">Женский</option>
+                            <option value="другой">другой</option>
+                        </select>
+                    </label>
+
+                    <label class="check" for="interest">
+                        <input type="checkbox" name="interest" id="">
+                        Програмирование
+                    </label>
+                    <label class="check" for="interest">
+                        <input type="checkbox" name="interest" id="">
+                        Дизайн
+                    </label>
+                    <label class="check" for="interest">
+                        <input type="checkbox" name="interest" id="">
+                        Музыка
+                    </label>
+
+                    <h2>Сообщение</h2>
+                    <hr>
+
+                    <label for="textarea">Ваше сообщение:
+                        <br>
+                        <textarea name="" id="" cols="50" rows="10"></textarea>
+                    </label><br>
+                    
+                    <div>
+                        <button class="btn" type="submit">Отправить</button>
+                        <button class="btn" type="reset">Сбросить</button>
+                    </div>
+                </form>
+
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <p>&#169; Все права защищены 2025</p>
+            </div>
+        </footer>
+    </body>
+
+</html>

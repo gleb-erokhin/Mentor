@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  padding: 5px;
+}
+
+.container {
+  width: 1400px;
+  margin: auto;
+}
+
+.header, .footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+ul li + li {
+  padding-top: 10px;
+}
+
+.form__title {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  height: 30px;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+.forms {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.forms__fieldset {
+  padding: 15px;
+}
+.forms__fieldset input,
+.forms__fieldset textarea {
+  width: 100%;
+}
+.forms__fieldset label {
+  margin-bottom: 0;
+}
+
+th {
+  width: 130px;
+}
+
+td {
+  padding: 5px;
+}
+
+.opisanie {
+  width: 250px;
+}/*# sourceMappingURL=style.css.map */
