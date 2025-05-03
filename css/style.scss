@@ -1,3 +1,7 @@
+#graf {
+    color: #e99393;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -107,6 +111,16 @@ td {
 .lesson-css p a {
     color: #ff0000;
 }
+
+p {
+    color: gray;
+}
+
+.paragraf {
+    color: green;
+}
+
+
 
 // перехватываем стиль от body
 // .lesson-css p {
