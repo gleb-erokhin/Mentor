@@ -89,8 +89,8 @@ td {
 }
 
 // задания CSS
-h1 {
-    color: #ffa500;
+h1, p {
+    color: #808080;
 }
 
 .lesson-css__link {
@@ -99,4 +99,12 @@ h1 {
 
 #title {
     font-size: 36px;
+}
+
+.lesson-css ul a {
+    color: #228b22;
+}
+
+.lesson-css p a {
+    color: #ff0000;
 }
