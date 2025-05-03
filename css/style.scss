@@ -6,6 +6,7 @@
 body {
     padding: 5px;
     background-color: #f0f0f0;
+    color: #000;
 }
 
 .container {
@@ -89,9 +90,6 @@ td {
 }
 
 // задания CSS
-h1, p {
-    color: #808080;
-}
 
 .lesson-css__link {
     color: #8b0000;
@@ -99,6 +97,7 @@ h1, p {
 
 #title {
     font-size: 36px;
+    color: purple;
 }
 
 .lesson-css ul a {
@@ -108,3 +107,8 @@ h1, p {
 .lesson-css p a {
     color: #ff0000;
 }
+
+// перехватываем стиль от body
+// .lesson-css p {
+//     color: #e210e2;
+// }
