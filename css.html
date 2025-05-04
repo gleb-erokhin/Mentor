@@ -13,6 +13,7 @@
                 font-weight: 700;
                 font-style: normal;
             }
+
             @font-face {
                 font-family: 'PTSans';
                 src: url("./font/PTSans-Regular.woff2") format("woff2");
@@ -43,7 +44,8 @@
             <div class="container">
                 <section class="lesson-css mb20">
                     <h1 id="title">Мой сайт</h1>
-                    <p>Добро пожаловать на мой сайт!</p>
+                    <p class="mb20">Добро пожаловать на мой сайт!</p>
+                    <p class="mb20">Ссылки ниже работают как блочный элемент, отступ справа 50px, отступ слева 15px</p>
                     <p id="graf" class="paragraf mb20">Ссылка внутри Параграфа <a href="#"
                             class="lesson-css__link">ссылка</a></p>
                     <a href="#" class="lesson-css__link">ссылка</a><br>
@@ -52,7 +54,8 @@
                     <ul class="lesson-css__list mb20">
                         <li class="lesson-css__item"><a href="#" class="lesson-css__link">ссылки</a></li>
                         <li class="lesson-css__item"><a href="#" class="lesson-css__link">ссылки</a></li>
-                        <li class="lesson-css__item"><a href="#" class="lesson-css__link">ссылки</a></li>
+                        <li>элемент Li ниже, скрыт через display: none;</li>
+                        <li class="lesson-css__item none"><a href="#" class="lesson-css__link ">ссылки</a></li>
                     </ul>
                     <input class="lesson-css__input" type="text" placeholder="введите имя">
                     <input class="lesson-css__input" type="text" placeholder="введите имя">
@@ -65,8 +68,13 @@
                 </section>
                 <section class="font">
                     <h1 class="h1-padding">Заголовок H1</h1>
-                    <p class="p-padding mb20">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus architecto excepturi, at necessitatibus iusto aspernatur inventore ut nam minus cumque. Dolorem in quod ut deserunt perspiciatis sint dolore magni vero?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, iste.</p>
-                    <p class="p-padding under">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, illum!</p>
+                    <p class="p-padding mb20">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium,
+                        illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus architecto excepturi, at
+                        necessitatibus iusto aspernatur inventore ut nam minus cumque. Dolorem in quod ut deserunt
+                        perspiciatis sint dolore magni vero?Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Est, iste.</p>
+                    <p class="p-padding under">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium,
+                        illum!</p>
                 </section>
             </div>
         </main>

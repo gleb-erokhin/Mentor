@@ -28,6 +28,10 @@ body {
   margin-bottom: 20px;
 }
 
+.none {
+  display: none;
+}
+
 .header,
 .footer {
   padding-top: 50px;
