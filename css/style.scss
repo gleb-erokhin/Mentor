@@ -194,12 +194,14 @@ input:focus {
 }
 
 .h1-padding {
-    display: inline;
+    display: inline-block;
+
     background-color: #228b22;
     background-clip: content-box;
     border: 1px solid red;
-    padding-left: 30px;
-    padding-right: 155px;
+
+    padding: 10px 30px 30px 55px;
+    margin-bottom: 50px;
     text-align: center;
 
     text-shadow: 5px 6px 20px lightcoral;
