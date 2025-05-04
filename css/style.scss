@@ -229,3 +229,35 @@ input:focus {
     background-color: #6c8ff0;
     background-clip: content-box;
 }
+
+.block {
+    width: 500px;
+    border: 1px solid red;
+}
+
+.box {
+    display: block;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.box1 {
+    background-color: #10d119;
+    width: 60%;
+}
+.box2 {
+    background-color: #d15710;
+    width: 50%;
+}
+.box3 {
+    background-color: #6410d1;
+    width: 40%;
+
+}
+.box4 {
+    background-color: #d110d1;
+    width: 30%;
+
+}
