@@ -192,4 +192,14 @@ input:focus {
 .h1-padding {
     padding-left: 130px;
     padding-right: 155px;
+    text-align: center;
+}
+
+.h1-padding + .p-padding {
+    text-align: justify;
+    text-transform: lowercase;
+}
+
+.under {
+    text-decoration: underline;
 }
