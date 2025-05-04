@@ -6,13 +6,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/css/style.css">
         <title>Document</title>
+        <style>
+            @font-face {
+                font-family: 'Merriweather';
+                src: url("./font/Merriweather-Bold.woff2") format("woff2");
+                font-weight: 700;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'PTSans';
+                src: url("./font/PTSans-Regular.woff2") format("woff2");
+                font-weight: 400;
+                font-style: normal;
+            }
+        </style>
     </head>
 
     <body>
         <div class="container">
             <header class="header">
                 <div class="container">
-    
+
                     <nav class="nav">
                         <ul class="nav__list">
                             <li class="nav__item">
@@ -30,7 +44,8 @@
                 <section class="lesson-css mb20">
                     <h1 id="title">Мой сайт</h1>
                     <p>Добро пожаловать на мой сайт!</p>
-                    <p id="graf" class="paragraf mb20">Ссылка внутри Параграфа <a href="#" class="lesson-css__link">ссылка</a></p>
+                    <p id="graf" class="paragraf mb20">Ссылка внутри Параграфа <a href="#"
+                            class="lesson-css__link">ссылка</a></p>
                     <a href="#" class="lesson-css__link">ссылка</a><br>
                     <a href="#" class="lesson-css__link">ссылка</a>
                     <hr>
@@ -44,9 +59,14 @@
                     <input class="lesson-css__input mb20" type="text" placeholder="введите имя"><br>
                     <button class="button">Button</button>
                 </section>
-                <section >
+                <section class="mb20">
                     <button class="button">Наведи на меня</button>
                     <input type="text" class="input-text" placeholder="Фокус на мне">
+                </section>
+                <section class="font">
+                    <h1>Заголовок H1</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, illum!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, illum!</p>
                 </section>
             </div>
         </main>

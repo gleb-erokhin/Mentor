@@ -1,3 +1,7 @@
+:root {
+    --font-family: "Merriweather", sans-serif;
+    --second-family: "PTSans", sans-serif;
+}
 #graf {
     color: #e99393;
 }
@@ -8,6 +12,7 @@
 }
 
 body {
+    font-family: var(--font-family);
     padding: 5px;
     background-color: #f0f0f0;
     color: #000;
@@ -22,7 +27,8 @@ body {
     margin-bottom: 20px;
 }
 
-.header, .footer {
+.header,
+.footer {
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -39,7 +45,7 @@ h3 {
     margin-bottom: 5px;
 }
 
-ul li+li {
+ul li + li {
     padding-top: 10px;
 }
 
@@ -118,6 +124,13 @@ td {
 
 p {
     color: gray;
+    font-family: var(--second-family);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 36px;
 }
 
 .paragraf {
@@ -135,7 +148,7 @@ p {
 }
 
 #title::before {
-    content: '*';
+    content: "*";
 }
 
 input {
@@ -147,23 +160,23 @@ input {
 input:focus {
     // outline: 1px solid #ff0000;
     outline-color: transparent;
-    border:2px solid green;
+    border: 2px solid green;
 }
 
 .button {
-  padding: 10px 20px;
-  border: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
 }
 
 .button:hover {
-  background-color: #add8e6;
+    background-color: #add8e6;
 }
 
 .button:active {
-  background-color: #00008b;
-  transform: scale(0.98);
-  color: red;
+    background-color: #00008b;
+    transform: scale(0.98);
+    color: red;
 }
