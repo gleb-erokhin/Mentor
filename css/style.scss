@@ -131,6 +131,7 @@ p {
 
 .lesson-css a:hover {
     color: #add8e6;
+    cursor: progress;
 }
 
 #title::before {
@@ -147,4 +148,22 @@ input:focus {
     // outline: 1px solid #ff0000;
     outline-color: transparent;
     border:2px solid green;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #add8e6;
+}
+
+.button:active {
+  background-color: #00008b;
+  transform: scale(0.98);
+  color: red;
 }
