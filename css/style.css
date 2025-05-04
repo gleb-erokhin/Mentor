@@ -18,6 +18,10 @@ body {
   margin: auto;
 }
 
+.mb20 {
+  margin-bottom: 20px;
+}
+
 .header, .footer {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -118,4 +122,23 @@ p {
 
 .paragraf {
   color: green;
+}
+
+.lesson-css a:hover {
+  color: #add8e6;
+}
+
+#title::before {
+  content: "*";
+}
+
+input {
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input:focus {
+  outline-color: transparent;
+  border: 2px solid green;
 }/*# sourceMappingURL=style.css.map */

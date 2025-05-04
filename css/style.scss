@@ -18,6 +18,10 @@ body {
     margin: auto;
 }
 
+.mb20 {
+    margin-bottom: 20px;
+}
+
 .header, .footer {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -120,9 +124,27 @@ p {
     color: green;
 }
 
-
-
 // перехватываем стиль от body
 // .lesson-css p {
 //     color: #e210e2;
 // }
+
+.lesson-css a:hover {
+    color: #add8e6;
+}
+
+#title::before {
+    content: '*';
+}
+
+input {
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input:focus {
+    // outline: 1px solid #ff0000;
+    outline-color: transparent;
+    border:2px solid green;
+}
