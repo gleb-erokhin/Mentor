@@ -308,4 +308,44 @@ input:focus {
 
 .flex-box8 {
   background-color: #1084d1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: [col] repeat(3, auto);
+}
+
+.grid-box {
+  min-width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.grid-box1 {
+  background-color: #6410d1;
+  grid-column: span 3;
+}
+
+.grid-box2 {
+  background-color: #d16d10;
+  grid-column: col 1/3;
+}
+
+.grid-box3 {
+  background-color: #10d120;
+}
+
+.grid-box4 {
+  background-color: #d11040;
+}
+
+.grid-box5 {
+  background-color: #1023d1;
+}
+
+.grid-box6 {
+  background-color: #10cbd1;
 }/*# sourceMappingURL=style.css.map */
