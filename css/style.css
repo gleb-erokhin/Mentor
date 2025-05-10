@@ -348,4 +348,50 @@ input:focus {
 
 .grid-box6 {
   background-color: #10cbd1;
+}
+
+.positions {
+  position: relative;
+  border: 1px solid red;
+  height: 750px;
+}
+
+.position-box {
+  width: 160px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.position-box1 {
+  background-color: #6410d1;
+}
+
+.position-box2 {
+  background-color: #d16d10;
+  position: relative;
+  top: -25px;
+  left: 50px;
+}
+
+.position-box3 {
+  background-color: #10d120;
+  position: absolute;
+  top: 175px;
+  left: 250px;
+}
+
+.position-box4 {
+  background-color: #d11040;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.position-box5 {
+  background-color: #9ed110;
+  position: sticky;
+  top: 0;
 }/*# sourceMappingURL=style.css.map */
