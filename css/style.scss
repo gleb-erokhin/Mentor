@@ -420,3 +420,49 @@ input:focus {
     left: 130px;
     z-index: 2;
 }
+
+//  float
+.poem {
+    height: 600px;
+}
+.poem__text1 img {
+    float: right;
+    padding: 5px;
+    margin: 5px;
+}
+
+.poem__img {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+// display
+.display {
+    // display: flex;
+    // flex-direction: column;
+}
+
+.display-box {
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+.display-box1 {
+    background-color: #6410d1;
+    height: 50px;
+    text-align: center;
+}
+.display-box2 {
+    background-color: #d16d10;
+    display: block;
+}
+.display-box3 {
+    background-color: #10d120;
+}
+
+.display__hov:hover .display-box1,
+.display__hov:hover .display-box3 {
+    display: block;
+}
