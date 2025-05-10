@@ -471,4 +471,13 @@ input:focus {
 
 .list-num {
   margin-left: 10px;
+}
+
+.images, .videos {
+  text-align: center;
+}
+
+.images img {
+  border: 2px solid orange;
+  box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.8);
 }/*# sourceMappingURL=style.css.map */
