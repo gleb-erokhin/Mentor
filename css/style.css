@@ -458,4 +458,17 @@ input:focus {
 .display__hov:hover .display-box1,
 .display__hov:hover .display-box3 {
   display: block;
+}
+
+.list {
+  list-style: circle;
+  padding-left: 10px;
+}
+
+.list__img {
+  list-style-image: url("/img/marker.png");
+}
+
+.list-num {
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */
