@@ -480,4 +480,30 @@ input:focus {
 .images img {
   border: 2px solid orange;
   box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.8);
+}
+
+table, th, td {
+  border: 1px solid red;
+  border-collapse: collapse;
+  color: #6c8ff0;
+}
+
+th {
+  background-color: #10cbd1;
+  color: #fff;
+  padding: 15px;
+}
+
+td {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(228, 223, 223);
+}
+
+tfoot td {
+  background-color: #228b22;
+  color: #fff;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
