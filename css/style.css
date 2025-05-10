@@ -394,4 +394,26 @@ input:focus {
   background-color: #9ed110;
   position: sticky;
   top: 0;
+}
+
+.z-index-box1 {
+  background-color: #6410d1;
+  position: relative;
+  z-index: 1;
+}
+
+.z-index-box2 {
+  background-color: #d16d10;
+  position: relative;
+  top: -25px;
+  left: 50px;
+  z-index: 3;
+}
+
+.z-index-box3 {
+  background-color: #10d120;
+  position: relative;
+  top: -275px;
+  left: 130px;
+  z-index: 2;
 }/*# sourceMappingURL=style.css.map */
