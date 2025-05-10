@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    width: 1400px;
+    max-width: 1400px;
     margin: auto;
 }
 
@@ -230,6 +230,7 @@ input:focus {
     background-clip: content-box;
 }
 
+// наследование ширины
 .block {
     width: 500px;
     border: 1px solid red;
@@ -254,10 +255,64 @@ input:focus {
 .box3 {
     background-color: #6410d1;
     width: 40%;
-
 }
 .box4 {
     background-color: #d110d1;
     width: 30%;
+}
 
+// flex
+.flex-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    // max-width: 1400px;
+    border: 1px solid red;
+    // padding: 5px;
+}
+
+.flex-center {
+    height: 800px;
+    // padding: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    flex-wrap: nowrap;
+    // width: unset;
+}
+
+.flex-box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    // margin: 5px;
+}
+
+.flex-box1 {
+    background-color: #6410d1;
+}
+.flex-box2 {
+    background-color: #d16d10;
+}
+.flex-box3 {
+    background-color: #10d120;
+}
+.flex-box4 {
+    background-color: #d11040;
+}
+.flex-box5 {
+    background-color: #1023d1;
+}
+.flex-box6 {
+    background-color: #10cbd1;
+}
+.flex-box7 {
+    background-color: #aed110;
+}
+.flex-box8 {
+    background-color: #1084d1;
 }
