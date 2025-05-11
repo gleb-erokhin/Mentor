@@ -732,4 +732,39 @@ tfoot td {
   transform: scale(1.1);
   background-color: rgba(70, 14, 143, 0.4117647059);
   color: #f1c3c3;
+}
+
+.animation-container {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.animation-block {
+  width: 100px;
+  height: 100px;
+  background-color: #1084d1;
+  border-radius: 50%;
+  transform: rotate(45deg) translate(100px, -100px);
+  animation-name: round-block;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes round-block {
+  from {
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+.animation-container:hover .animation-block {
+  animation-play-state: paused;
 }/*# sourceMappingURL=style.css.map */
