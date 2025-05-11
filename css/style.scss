@@ -785,7 +785,7 @@ tfoot td {
     animation-name: round-block;
     animation-duration: 3s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 @keyframes round-block {  
@@ -801,3 +801,36 @@ tfoot td {
     animation-play-state: paused;
 
 }
+
+// transfomation
+.transform-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.transform-block {
+    width: 150px;
+    height: 150px;
+    background-color: #00008b;
+    transition: transform 0.2s linear;
+
+    animation-name: block;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 2;
+    animation-fill-mode: backwards;
+}
+
+@keyframes block {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
