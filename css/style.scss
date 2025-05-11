@@ -474,7 +474,7 @@ input:focus {
 }
 
 .list__img {
-    list-style-image: url('/img/marker.png');
+    list-style-image: url("/img/marker.png");
 }
 
 .list-num {
@@ -482,7 +482,8 @@ input:focus {
 }
 
 // images
-.images, .videos {
+.images,
+.videos {
     text-align: center;
 }
 
@@ -492,7 +493,9 @@ input:focus {
 }
 
 // таблца
-table, th, td {
+table,
+th,
+td {
     border: 1px solid red;
     border-collapse: collapse;
     color: #6c8ff0;
@@ -556,7 +559,6 @@ tfoot td {
     }
     input[type="checkbox"]:checked {
         accent-color: #1084d1;
-
     }
     &__label {
         display: flex;
@@ -582,6 +584,46 @@ tfoot td {
     color: #fff;
 }
 .background-block3 {
-    background-image: url('/img/img.webp');
+    background-image: url("/img/img.webp");
     background-size: contain;
+}
+
+// еденицы измерения
+.dimentions {
+    height: 25vh;
+    border: 1px solid red;
+    font-size: 16px;
+    padding: 3rem;
+}
+
+.dimentions h1 {
+    font-size: 40px;
+}
+
+.dimentions-paragraf {
+    font-size: 1.5em;
+}
+
+@media (max-width: 992px) {
+    .dimentions {
+        padding: 2rem;
+    }
+    .dimentions h1 {
+        font-size: 32px;
+    }
+    .dimentions-paragraf {
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width: 576px) {
+    .dimentions {
+        padding: 1rem;
+    }
+    .dimentions h1 {
+        font-size: 26px;
+    }
+    .dimentions-paragraf {
+        font-size: 1em;
+    }
 }

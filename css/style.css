@@ -469,7 +469,8 @@ input:focus {
   margin-left: 10px;
 }
 
-.images, .videos {
+.images,
+.videos {
   text-align: center;
 }
 
@@ -478,7 +479,9 @@ input:focus {
   box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.8);
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid red;
   border-collapse: collapse;
   color: #6c8ff0;
@@ -568,4 +571,42 @@ tfoot td {
 .background-block3 {
   background-image: url("/img/img.webp");
   background-size: contain;
+}
+
+.dimentions {
+  height: 25vh;
+  border: 1px solid red;
+  font-size: 16px;
+  padding: 3rem;
+}
+
+.dimentions h1 {
+  font-size: 40px;
+}
+
+.dimentions-paragraf {
+  font-size: 1.5em;
+}
+
+@media (max-width: 992px) {
+  .dimentions {
+    padding: 2rem;
+  }
+  .dimentions h1 {
+    font-size: 32px;
+  }
+  .dimentions-paragraf {
+    font-size: 1.25em;
+  }
+}
+@media (max-width: 576px) {
+  .dimentions {
+    padding: 1rem;
+  }
+  .dimentions h1 {
+    font-size: 26px;
+  }
+  .dimentions-paragraf {
+    font-size: 1em;
+  }
 }/*# sourceMappingURL=style.css.map */
